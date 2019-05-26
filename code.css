@@ -193,3 +193,31 @@ html > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt > div.app-2r
 #app-mount .guildIcon-VlWW86[style*='/icons/153708594091655168'] {
   background-image: var(--BetterDocsBlockerWarnLogo3) !important;
 }
+
+.embedLink-1G1K1D[href*="://betterdiscord.net"i]::after,
+.embedLink-1G1K1D[href*="://betterdiscordlibrary.com"i]::after {
+    position:absolute;
+    top:0;
+    right:0;
+    color:#fff;
+    border-radius:0 0 0 5px;
+    line-height: 1.3;
+    font-size: .85em;
+    font-weight: 500;
+    padding: 1px 2px;
+    padding-left:18px;
+    background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxOTIgMTkyIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxOTJ2LTE5MmgxOTJ2MTkyeiIgZmlsbD0ibm9uZSIvPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik05NiwxNmMtNDQuMTEyLDAgLTgwLDM1Ljg4OCAtODAsODBjMCw0NC4xMTIgMzUuODg4LDgwIDgwLDgwYzQ0LjExMiwwIDgwLC0zNS44ODggODAsLTgwYzAsLTkuMDA4IC0xLjU2ODEzLC0xNy42NDYzOCAtNC4zMjgxMywtMjUuNzM0MzhsLTEyLjk1MzEyLDEyLjk1MzEzYzAuODQsNC4xMjggMS4yODEyNSw4LjQwNTI1IDEuMjgxMjUsMTIuNzgxMjVjMCwzNS4yODggLTI4LjcxMiw2NCAtNjQsNjRjLTM1LjI4OCwwIC02NCwtMjguNzEyIC02NCwtNjRjMCwtMzUuMjg4IDI4LjcxMiwtNjQgNjQsLTY0YzEzLjA2NCwwIDI1LjIxNTM4LDMuOTUxMTIgMzUuMzU5MzgsMTAuNzAzMTJsMTEuNDUzMTIsLTExLjQ1MzEyYy0xMy4xODQsLTkuNTUyIC0yOS4zMzI1LC0xNS4yNSAtNDYuODEyNSwtMTUuMjV6TTE3MC4zNDM3NSwyNi4zNDM3NWwtODIuMzQzNzUsODIuMzQzNzVsLTI2LjM0Mzc1LC0yNi4zNDM3NWwtMTEuMzEyNSwxMS4zMTI1bDM3LjY1NjI1LDM3LjY1NjI1bDkzLjY1NjI1LC05My42NTYyNXoiLz48L2c+PC9nPjwvc3ZnPg==');
+    background-repeat:no-repeat;
+    background-size:15%;
+    background-position:2px;
+    pointer-events:none;
+}
+.embedLink-1G1K1D[href*="://betterdiscord.net"i]::after {
+    content:'Official Source';
+    background-color:#43b581;
+}
+
+.embedLink-1G1K1D[href*="://betterdiscordlibrary.com"i]::after {
+    content:'Trusted Source';
+    background-color:#faa61a;
+}
